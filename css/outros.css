@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    position: relative;
+    left: 500px;
+}
+
+li {
+    display: inline;
+    position: relative;
+    right: 164px;
+    bottom: 35px;
+}
+
+.menu {
+    position: relative;
+    left: 530px;
+}
+
+.img-logo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 171px;
+    width: 152px;
+}
+
+.img-linha {
+    position: relative;
+    width: 57px;
+    left: 662px;
+    bottom: 30px;
+}
+
+.title {
+    color: #4f235c;
+    font-family: Uni Neue, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.group,
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {
+    left: 310px;
+    position: relative;
+}
+
+.group img,
+.group1 img,
+.group2 img,
+.group3 img,
+.group4 img,
+.group5 img {
+    border-radius: 11px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+
+.img-cao {
+    max-width: 200px;
+    position: relative;
+    left: 32px;
+    top: 15px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+.card-preco {
+    color: #4f235c;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 87px;
+    bottom: 12px;
+    top: 33px;
+
+}
+
+.card {
+    border-radius: 23px;
+    border: 4px solid transparent;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    position: relative;
+    left: 221px;
+    float: left;
+    margin: 4px;
+    width: 252px;
+    height: 362px;
+}
+.card-text-variacao{
+    color: #5d5d5d;
+    font-family: Uni Neue,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 2px 25px;
+    width: 131px;
+    margin: 0px;
+    border: 1px solid #c9c0c0;
+    border-radius: 15px;
+    position: relative;
+    left: 38px;
+    top: 15px;
+}
+.search{
+    position: relative;
+    left: 248px;
+    color: #979899;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 42px;
+}
+.button3 {
+    border-radius: 19px;
+    background: #4f235c;
+    position: relative;
+    top: 2299px;
+    right: 415px;
+    width: 220px;
+    height: 46px;
+    text-transform: uppercase;
+    color:white ;
+    border: transparent;
+}
+  

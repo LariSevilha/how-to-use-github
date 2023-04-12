@@ -1,0 +1,250 @@
+
+
+
+
+body{
+  overflow-x: hidden;
+  }
+  .menu{
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    opacity: 0.95;
+    width: 100%;
+    z-index: 10;
+    background-color: #4f235c;
+  }
+  .img-logo{
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  left: 171px;
+  width: 152px;
+  }
+  .img{
+  width: 100%;
+  }
+  ul{
+  position: relative;
+  left: 500px;
+  }
+  li{
+  display: inline;
+  position: relative;
+  right: 164px;
+  bottom: 35px;
+  }
+  .frete, .cartao, .desconto, .loja {
+  width: 25%;
+  float: left;
+  margin-bottom: 20px;
+  }
+  .text-frete {
+  margin-top: 17px;
+  color: red;
+  font-family: Uni Neue,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  }
+  .div-img-ca{
+  position: relative;
+  top: 18px;
+  }
+  .city {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  }
+  .img-caminhao, .img-cartao, .img-mao, .img-loja {
+  width: 40px;
+  margin: 15px;
+  }
+  .combo{
+  margin-left: 73px;
+  margin-right: -48px;
+  /* padding: 0 20px; */
+  position: relative;
+  left: 6px;
+  }
+  .category{
+  position: relative;
+  right: 490px;
+  top: 26px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  color: #4f235c;
+  font-family: Arial;
+  }
+  .img-cat{
+  width: 170px;
+  }
+  .fotos-categoria{
+  float: left;
+  width: 208px;
+  position: relative;
+  left: 93px;
+  top: 27px;
+  }
+  .text-bravecto{
+  position: relative;
+  left: 950px;
+  top: 50px;
+  }
+  .text-torcida{
+   position: relative;
+   right: 125px;
+   top: 400px;
+   white-space: nowrap;
+  }
+  .linha{
+  position: relative;
+  left: 879px;
+  bottom: 51px;
+  }
+  .img-linha{ 
+  width: 185px;
+  position: relative;
+  top: 50px;
+  left: 231px;
+  }
+  .bravecto{
+  display: inline;
+  position: relative;
+  left: 119px;
+  top: 16px;
+  }
+  .img-bravecto{
+  box-shadow: 2px #ededed;
+  border-radius: 8px;
+  }
+  .card {
+  border-radius: 23px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  margin: 10px;
+  width: 200px;
+  float: left;
+  height: 357px
+  }
+  .card-text {
+  font-size: 14px;
+  text-align: center;
+  /* padding: 10px; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7d7d7d;
+  font-weight: bold;
+  }
+  .card-preco{
+  color: #4f235c;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative;
+  right: -95px;
+  bottom: 33px;
+  }
+  .card-preco-antigo{
+  text-decoration: line-through;
+  position: relative;
+  left: 19px;
+  color: #7d7d7d;
+  }
+.card-preco-antigo-t{
+  text-decoration: line-through;
+  position: relative;
+  left: 19px;
+  color: #7d7d7d;
+  top: 15px;
+}
+.maior{
+  float: left;
+  position: relative;
+  left: 110px;
+  top: 45px;
+}
+
+.card-t {
+  border-radius: 35px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  margin: 10px;
+  width: 200px;
+  float: left;
+  height: 357px
+  }
+.card-preco-t{
+  color: #4f235c;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 19px;
+  left: 91px;
+}
+.torcida{
+  font-family: Uni Neue,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #4f235c;
+  font-size: 26px;
+  position: relative;
+  left: 316px; 
+}
+.img-cao, .card-img{
+  width: 180px;
+  position: relative;
+  top: 20px;
+  left: 12px;
+}
+.card-m{
+  border-radius: 35px;
+  margin: 10px;
+  width: 135px;
+  float: left;
+  height: 357px;
+  position: relative;
+  right: 60px;
+}
+.img-m{
+  width: 137px;
+  position: relative;
+  top: 20px;
+  left: 12px;
+  border-radius: 35px;
+}
+.card-text-mar{
+  position: relative;
+  border-radius: 8px;
+  height: 28px;
+  left: 29px;
+  width: 93px;
+  text-align: center;
+  color: #4f235c;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.card-m:hover .card-text-mar {
+  background-color: rgba(211,216,0,.9);
+}
+
+.card-m:hover .img-m {
+  border: 4px solid rgba(211,216,0,.9);
+}
+.text-mar{
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  color: #4f235c;
+  font-size: 26px;
+  float: left;
+  text-align: center;
+  left: 459px
+}
+.img-linha-m{
+  position: relative;
+  top: 31px;
+  width: 192px;
+  left: 298px;
+}

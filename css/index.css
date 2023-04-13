@@ -137,13 +137,13 @@ body{
   font-weight: bold;
   }
   .card-preco{
-  color: #4f235c;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  position: relative;
-  right: -95px;
-  bottom: 33px;
+    color: #4f235c;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 95px;
+    top: 21px;
   }
   .card-preco-antigo{
   text-decoration: line-through;
@@ -151,6 +151,13 @@ body{
   left: 19px;
   color: #7d7d7d;
   }
+.card-preco-antigo-fav{
+  text-decoration: line-through;
+  position: relative;
+  left: 19px;
+  top: 53px;
+  color: #7d7d7d;
+ }
 .card-preco-antigo-t{
   text-decoration: line-through;
   position: relative;
@@ -247,4 +254,28 @@ body{
   top: 31px;
   width: 192px;
   left: 298px;
+}
+
+.maior-m{
+  float: left;
+  width: 113%;
+  right: 114px;
+  position: relative; 
+  top: 80px; 
+}
+.marca{
+  position: relative;
+  left: 226px;
+}
+.fav{
+  position: relative;
+  right: 112px;
+}
+.marca-fav{
+  position: relative;
+  bottom: 122px;
+  left: 178px;
+}
+span{
+  border-bottom: 4px solid #00bffe;
 }

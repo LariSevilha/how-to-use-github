@@ -81,12 +81,16 @@ body{
   .text-bravecto{
     position: relative;
     right: 644px;
-    top: 162px;
+    /* top: 162px; */
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
     color: #4f235c;
     font-family: Arial;
+    /* position: relative; */
+    left: 430px;
+    top: 81px;
+
   }
   .img-cat{
   width: 170px;
@@ -117,14 +121,14 @@ body{
   .img-linha{ 
   width: 185px;
   position: relative;
-  top: 50px;
-  left: 231px;
+  top: 32px;
+  left: 584px;
   }
   .bravecto{
     display: inline;
     position: relative;
     left: 121px;
-    top: 168px
+    top: 36px;
   }
   .img-bravecto{
   box-shadow: 2px #ededed;
@@ -179,7 +183,7 @@ body{
   float: left;
   position: relative;
   left: 110px;
-  top: 130px;
+  top: 234px;
 }
 
 .card-t {
@@ -332,6 +336,10 @@ body{
   position: relative;
   top: 70px;
   left: 60px;
+}
+.animais{
+  top: 122px;
+  position: relative;
 }
 .card-text-a{
   text-align: center;

@@ -2,21 +2,74 @@ body {
     overflow-x: hidden;
 }
 
-ul {
-    position: relative;
-    left: 500px;
+.menu ul{
+	padding: 0;
+	text-align: center;
 }
 
-li {
-    display: inline;
-    position: relative;
-    right: 164px;
-    bottom: 35px;
+.menu ul li{
+	display: inline;
+	margin: 0 40px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
 }
 
 .menu {
-    position: relative;
-    left: 530px;
+  height: 130px;
+  position: fixed;
+  top: 0;
+  opacity: 0.95;
+  width: 100%;
+  z-index: 10;
+  background-color: #4f235c;
+}
+
+input[type=pesquisa] {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 0px 20px 0px 40px;
+  border-radius: 40px;
+  outline: none;
+  border: solid gray 2px;
+  background: '#000000' 7px center no-repeat;
+}
+.search{
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+#logo{
+  position: relative;
+  top: 16px;
+  left: 467px;
+}
+.img-logo {
+  width: 125px;
+  position: relative;
+  bottom: 40px;
+  left: 153px;
+}
+
+.img {
+  width: 100%;
+}
+
+ul {
+  position: relative;
+  left: 167px;
+  bottom: 25px;
+}
+
+li {
+  display: inline;
+  position: relative;
+  right: 164px;
+  bottom: 35px;
 }
 
 .img-logo {

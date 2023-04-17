@@ -111,8 +111,7 @@ li {
 
 .combo {
   margin-left: 73px;
-  margin-right: -48px;
-  /* padding: 0 20px; */
+  margin-right: -48px; 
   position: relative;
   left: 6px;
 }
@@ -130,14 +129,12 @@ li {
 
 .text-bravecto {
   position: relative;
-  right: 644px;
-  /* top: 162px; */
+  right: 644px; 
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   color: #4f235c;
-  font-family: Arial;
-  /* position: relative; */
+  font-family: Arial; 
   left: 430px;
   top: 81px;
 
@@ -346,7 +343,7 @@ li {
   width: 113%;
   right: 114px;
   position: relative;
-  top: 195px;
+  top: 237px;
 }
 
 .marca {
@@ -420,7 +417,7 @@ li {
 }
 
 .animais {
-  top: 122px;
+  top: 50px;
   position: relative;
 }
 
@@ -547,4 +544,77 @@ input[type=email] {
 .reg{
   position: relative;
   right: 135px;
+}
+
+
+
+.rodape{
+  position: relative;
+  top: 2000px;
+  right: 850px;
+}
+
+.atendi{
+  position: relative;
+  right: 313px;
+  top: 153px;
+  width: 0px;
+}
+.poli{
+  position: relative;
+  right: 9px;
+  bottom: 109px;
+  width: 0px;
+}
+.insti{
+  position: relative;
+  left: 313px;
+  bottom: 367px;
+  width: 0px;
+}
+.div{
+  position: relative;
+  top: 100px;
+  right: 95px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+.div-poli{
+  position: relative;
+  bottom: 163px;
+  left: 305px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+.div-insti{
+  position: relative;
+  bottom: 428px;
+  left: 279px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+.img-rodape{
+  left: 897px;
+  bottom: 1039px;
+  position: relative;
+}
+.img-rodape-redesocial{
+  position: relative;
+  left: 1375px;
+  bottom: 993px;
 }

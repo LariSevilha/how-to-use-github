@@ -1,9 +1,7 @@
 body {
     overflow-x: hidden;
 }
-
 .menu ul{
-	padding: 0;
 	text-align: center;
 }
 
@@ -27,7 +25,6 @@ body {
   z-index: 10;
   background-color: #4f235c;
 }
-
 input[type=pesquisa] {
   width: 400px;
   height: 40px;
@@ -39,8 +36,12 @@ input[type=pesquisa] {
   background: '#000000' 7px center no-repeat;
 }
 .search{
-  text-align: center;
   position: relative;
+  right: 10px;
+  color: #979899;
+  font-weight: 400;
+  font-size: 14px;
+  left: 397px;
   top: 15px;
 }
 #logo{
@@ -48,6 +49,13 @@ input[type=pesquisa] {
   top: 16px;
   left: 467px;
 }
+.img-logo {
+  width: 167px;
+  position: relative;
+  bottom: 40px;
+  left: 134px;
+}
+
 .img-logo {
   width: 125px;
   position: relative;
@@ -163,7 +171,7 @@ li {
     left: 38px;
     top: 15px;
 }
-.search{
+.search-pro{
     position: relative;
     left: 248px;
     color: #979899;
@@ -185,3 +193,167 @@ li {
     border: transparent;
 }
   
+.cad{
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: arial;
+  color: #D3D800;
+
+
+  position: relative;
+  right: 876px;
+  top: 30px;
+}
+.registro{
+  position: relative;
+  right: 3px;
+  top: 499px;
+  height: 100px;
+  background: #4F235C;
+  border-radius: 30px 10px 10px 10px;
+}
+.nov{
+  font-weight: bolder;
+  font-family: arial;
+  color: #D3D800;
+  font-size: 12px;
+
+  position: relative;
+  bottom: 55px;
+  right: 729px;
+  bottom: 30px;
+}
+.email{
+  font-weight: bolder;
+  font-family: arial;
+  color: #D3D800;
+  font-size: 12px;
+  position: relative;
+  bottom: 30px;
+  right: 727px;
+}
+
+input[type=name]{
+  width: 223px;
+  height: 44px;
+  font-size: 16px;
+  padding: 0px 20px 0px 40px;
+  border-radius: 40px;
+  outline: none;
+  position: relative;
+  border: solid gray 2px;
+  bottom: 375px;
+  left: 58px;
+}
+.name{
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+input[type=email] {
+  width: 311px;
+  height: 45px;
+  font-size: 16px;
+  padding: 0px 20px 0px 40px;
+  border-radius: 40px;
+  outline: none;
+  border: solid gray 2px;
+  background: '#000000' 7px center no-repeat;
+}
+.emailr{
+  text-align: center;
+  position: relative;
+  bottom: 418px;
+  left: 350px;
+}
+#emailre{
+  position: relative;
+  left: 377px;
+  top: 15px;
+}
+.reg{
+  position: relative;
+}
+.duplinha{
+  position: relative;
+}
+
+.rodape{
+  position: relative;
+  top: 2000px;
+  right: 635px;
+}
+
+.atendi{
+  position: relative;
+  right: 13px;
+  top: -1472px;
+  width: 0px;
+}
+.poli{
+  position: relative;
+  left: 1278px;
+  bottom: 1735px;
+  width: 0px;
+}
+.insti{
+  position: relative;
+  left: 1422px;
+  bottom: 1994px;
+  width: 0px;
+}
+.div{
+  position: relative;
+  bottom: 1534px;
+  right: 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  width: 0px;
+}
+.div-poli{
+  position: relative;
+  bottom: 1799px;
+  left: 628px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+.div-insti{
+  position: relative;
+  bottom: 2059px;
+  left: 791px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+.img-rodape{
+  left: 897px;
+  bottom: 1039px;
+  position: relative;
+}
+.img-rodape-redesocial{
+  position: relative;
+  left: 1375px;
+  bottom: 993px;
+}
+
+.img-rodape-div{
+  position: relative;
+  right: 229px;
+  bottom: 1024px;
+}
